@@ -7,12 +7,23 @@ body{
     background-color: #120137ff;
     font-family: "Lora", serif; 
     color: #f2f2f0ff;
+    margin: 0;
+    text-align: center;
+
+
 }
 
 h1{
     font-family: "New Romantics", serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    font-weight: normal;
 }
 
 h2, h3, h4, h5, h6{
     font-family: "Cinzel", serif;
+}
+
+footer{
+    
 }
