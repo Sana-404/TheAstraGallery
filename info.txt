@@ -1,0 +1,7 @@
+/* color palette  https://coolors.co/0b0711-120137-2a0574-bbd2f5-f2f2f0-a00332*/
+--black: #0b0711ff;
+--russian-violet: #120137ff;
+--persian-indigo: #2a0574ff;
+--powder-blue: #bbd2f5ff;
+--white-smoke: #f2f2f0ff;
+--madder: #a00332ff;

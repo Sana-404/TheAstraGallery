@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "New Romantics";
+    src: url(NewRomantics.ttf) format("truetype");
+}
+
+body{
+    background-color: #120137ff;
+    font-family: "Lora", serif; 
+    color: #f2f2f0ff;
+}
+
+h1{
+    font-family: "New Romantics", serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: "Cinzel", serif;
+}
