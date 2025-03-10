@@ -4,6 +4,7 @@
 }
 
 html, body{
+    
     height: 100%;
     background-color: #120137ff;
     font-family: "Lora", serif; 
@@ -71,4 +72,5 @@ footer{
     background-color: #2a0574ff;
     position: relative;
     bottom: 0;
+
 }
