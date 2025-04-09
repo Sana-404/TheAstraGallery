@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Astra Gallery</title>
-    <link rel="shortcut icon" href="Assets\star-blue.svg" type="image/svg">
-    <link rel="stylesheet" href="fontstyle.css">
-    <link rel="stylesheet" href="mmstyle.css">
-    <link rel="stylesheet" href="headerstyle.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stars.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Astra Gallery</title>
+        <link rel="shortcut icon" href="Assets\star-blue.svg" type="image/svg">
+        <link rel="stylesheet" href="CSS/headerstyle.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/stars.css">
+    </head>
+    <style>
+        main {
+            text-align: center;
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            padding: 10px;
+        }
+    
+        h1{
+            margin-bottom: 0;
+        }
+    </style>
 <header>
     <div class="container">
     
@@ -35,13 +46,13 @@
     
     <main>
     <canvas id="starCanvas"></canvas>
-    <h1>3D Animations</h1>
-    <p>This is a page that will show my 3D Animations.</p>
- 
+    <h1>3D Animation</h1>
+    <video src="Assets/solar_system.mp4" type="video/mp4" alt="3D Animation of the solar system with Mercury, Venus, and Earth" controls autoplay loop muted></video>
+
     </main>
 
     <footer>&copy 2025 The Astra Gallery. All Rights Reserved.</footer>
-    <script src="stars.js"></script>
+    <script src="js/stars.js"></script>
     <script src="js/artworkProtection.js"></script>
 </body>
 </html>
